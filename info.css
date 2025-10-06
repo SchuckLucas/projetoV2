@@ -2,14 +2,11 @@
   margin: 0;
 }
 
-main {
+main, #box_main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 20px;
-  padding: 30px;
-  box-sizing: border-box;
 }
 
 header {
@@ -17,15 +14,18 @@ header {
 }
 
 #box_main{
+  gap: 20px;
+  padding: 30px;
+  box-sizing: border-box;
   animation: aparecer 1s linear;
 }
 
 @keyframes aparecer{
   0%{
-    opacity: 100%;
+    opacity: 0%;
   }
   100%{
 
-    opacity: 0%;
+    opacity: 100%;
   }
 }
