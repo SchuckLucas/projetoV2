@@ -173,8 +173,8 @@ main {
 .elementos_caregamento {
   width: 50px;
   height: 50px;
-  border: 10px solid var(--cor-box1);
-  border-top: 10px solid var(--cor-box2);
+  border: 10px solid var(--cor-box2);
+  border-top: 10px solid var(--blue);
   border-radius: 50%;
   margin-top: 30px;
   animation: girar 2s linear infinite;
