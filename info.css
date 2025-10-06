@@ -1,0 +1,17 @@
+#bt_sair {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+header {
+  justify-content: space-around;
+}
