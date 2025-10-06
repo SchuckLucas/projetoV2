@@ -15,3 +15,17 @@ main {
 header {
   justify-content: space-around;
 }
+
+#box_main{
+  animation: aparecer 1s linear;
+}
+
+@keyframes aparecer{
+  0%{
+    opacity: 100%;
+  }
+  100%{
+
+    opacity: 0%;
+  }
+}
