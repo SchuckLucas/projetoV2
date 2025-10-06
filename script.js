@@ -5,6 +5,7 @@ const botao_retornar = document.getElementById("bt_retornar");
 const botao_contato = document.getElementById("bt_contato");
 const botao_info = document.getElementById("bt_info");
 const botao_doar = document.getElementById("bt_doar");
+const botao_login = document.getElementById("bt_login");
 
 const respostas = [
   "Alimentos não pericíveis não prejudiciais a saude humana.",
@@ -44,4 +45,7 @@ botao_info.addEventListener("click", () => {
 });
 botao_doar.addEventListener("click", () => {
   window.location.href = "doar.html";
+});
+botao_login.addEventListener("click", () => {
+  window.location.href = "entrar.html";
 });
