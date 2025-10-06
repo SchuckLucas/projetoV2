@@ -53,11 +53,6 @@ btnEnviar.onclick = () => {
   inputValor.value = '';
 }
 
-// Botão para mostrar notificação manualmente
-notifBtn.onclick = () => {
-  showNotification('Esta é uma notificação manual. Você pode clicar neste botão para ver uma mensagem.');
-}
-
 // Função para mostrar notificação
 function showNotification(mensagem) {
   notificacao.innerText = mensagem;
