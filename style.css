@@ -13,6 +13,15 @@
   --cor-fonte: #000000;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-box1: #16213e;
+    --cor-box2: #1a1a2e;
+    --cor-box3: #1d2a58;
+    --cor-fonte: #ffffff;
+  }
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
