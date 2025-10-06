@@ -20,7 +20,7 @@ body {
 
 .textos,
 .perguntas {
-  text-shadow: 0 0 2px var(--neon);
+  text-shadow: 0 0 3px var(--neon);
   color: var(--cor-fonte);
 }
 
